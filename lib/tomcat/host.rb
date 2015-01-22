@@ -1,0 +1,2 @@
+class Tomcat::Host
+end

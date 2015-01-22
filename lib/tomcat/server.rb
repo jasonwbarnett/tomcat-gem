@@ -1,0 +1,2 @@
+class Tomcat::Server
+end

@@ -1,0 +1,2 @@
+class Tomcat::Engine
+end
