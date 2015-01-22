@@ -1,6 +1,7 @@
 # Tomcat
 
 TODO: Write a gem description
+This gem was created so that I could easily parse Tomcat's server.xml and it's services, connectors, etc...
 
 ## Installation
 

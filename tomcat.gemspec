@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Tomcat::VERSION
   spec.authors       = ["Jason Barnett"]
   spec.email         = ["jason.w.barnett@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Query Tomcat server.xml and it's services.}
+  spec.homepage      = "https://github.com/jasonwbarnett/tomcat-gem"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -20,4 +19,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+
+  spec.add_dependency "nokogiri", "~> 1.6.5"
 end
